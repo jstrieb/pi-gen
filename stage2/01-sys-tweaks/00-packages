@@ -59,6 +59,6 @@ rlwrap
 info
 makeself
 net-tools
-openjdk-11-jdk openjdk-11-jre
+openjdk-11-jdk
 shellcheck
 traceroute
