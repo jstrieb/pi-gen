@@ -37,7 +37,6 @@ gcc
 tmux
 pandoc
 ffmpeg
-calibre
 texlive texlive-extra-utils texlive-latex-extra texlive-pictures poppler-utils
 jq
 imagemagick
