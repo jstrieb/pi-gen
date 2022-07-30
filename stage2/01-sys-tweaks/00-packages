@@ -32,3 +32,34 @@ rpi-eeprom
 raspinfo
 udisks2
 unzip zip p7zip-full
+wget
+gcc
+tmux
+pandoc
+ffmpeg
+calibre
+texlive texlive-extra-utils texlive-latex-extra texlive-pictures poppler-utils
+jq
+imagemagick
+netcat
+nmap
+git
+binutils
+tor
+sqlite3
+valgrind
+socat
+exiftool
+neovim
+openssh-server
+python3
+python3-pip
+magic-wormhole
+links
+rlwrap
+info
+makeself
+net-tools
+openjdk-11-jdk openjdk-11-jre
+shellcheck
+traceroute
