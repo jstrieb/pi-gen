@@ -37,7 +37,6 @@ gcc
 tmux
 pandoc
 ffmpeg
-texlive texlive-extra-utils texlive-latex-extra texlive-pictures poppler-utils
 jq
 imagemagick
 netcat
@@ -59,6 +58,5 @@ rlwrap
 info
 makeself
 net-tools
-openjdk-11-jdk
 shellcheck
 traceroute
