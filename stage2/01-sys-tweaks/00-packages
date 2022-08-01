@@ -60,3 +60,5 @@ makeself
 net-tools
 shellcheck
 traceroute
+file
+nmtui
