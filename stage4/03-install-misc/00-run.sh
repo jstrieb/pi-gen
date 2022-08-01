@@ -3,7 +3,7 @@
 set -e;
 
 wget \
-  --output-document /tmp/go1.18.3.linux-amd64.tar.gz \
+  --output-document /tmp/go1.18.4.linux-armv6l.tar.gz \
   "https://go.dev/dl/go1.18.4.linux-armv6l.tar.gz";
 tar \
   --directory "${ROOTFS_DIR}/usr/local" \

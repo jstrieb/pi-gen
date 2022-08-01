@@ -61,4 +61,4 @@ net-tools
 shellcheck
 traceroute
 file
-nmtui
+network-manager
