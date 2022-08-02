@@ -43,7 +43,6 @@ netcat
 nmap
 git
 binutils
-tor
 sqlite3
 valgrind
 socat
