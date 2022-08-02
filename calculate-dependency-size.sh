@@ -4,8 +4,8 @@ if [ ! -f dependency_graph.txt ]; then
   echo Calculating dependencies...
 
   # find . -type f -iname "*packages*" \
-  echo stage2/01-sys-tweaks/00-packages \
-    | xargs cat \
+  # | xargs cat \
+  cat stage2/*/*packages* \
     | tr ' ' '\n' \
     | xargs -L 1 debtree \
     | tee dependency_graph.txt
@@ -14,8 +14,8 @@ fi
 echo Calculating sizes...
 
 cat dependency_graph.txt \
-  | grep -o -E '".+" -> ".+"' \
-  | sed -E -e 's/"(.+)" -> "(.+)"/\1\n\2/g' \
+  | grep -o -E '"[^"]+" -> "[^"]+"' \
+  | sed -E -e 's/"([^"]+)" -> "([^"]+)"/\1\n\2/g' \
   | sort \
   | uniq \
   | xargs apt-cache show \
