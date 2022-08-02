@@ -7,5 +7,5 @@ git clone https://github.com/jstrieb/dotfiles.git;
 
 on_chroot <<EOF
   cd "/home/${FIRST_USER_NAME}/dotfiles";
-  bash install.sh;
+  sudo -u ${FIRST_USER_NAME} bash install.sh;
 EOF
