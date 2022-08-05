@@ -61,3 +61,4 @@ shellcheck
 traceroute
 file
 network-manager
+nginx
